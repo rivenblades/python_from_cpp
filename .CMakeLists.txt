@@ -1,0 +1,27 @@
+# cmake_minimum_required (VERSION 3.4)
+# project(main)
+# set(CMAKE_CXX_STANDARD 11)
+# set(CC g++)
+# # add_library(my_python3.7m SHARED IMPORTED)
+# # set_target_properties(my_python3.7m PROPERTIES
+# # 	IMPORTED_LOCATION "/usr/lib/x86_64-linux-gnu/libpython3.7m.so"
+# # 	INTERFACE_INCLUDE_DIRECTORIES "/usr/include/python3.7m")
+#
+# add_subdirectory(pybind11)
+# include_directories(/usr/include/python3.7/)
+# include_directories(pybind11/include)
+# # include_directories(/usr/include/python3.6m/)
+# # include_directories(/usr/include/x86_64-linux-gnu/python3.6m/)
+# #library_directories(python3.6m)
+# add_library(main main_python.cpp)
+# # set(PYTHON_LIBRARY python3.6m)
+# target_link_libraries(main python3.7m)
+# set(Python_ADDITIONAL_VERSIONS 3.4)
+# find_package(PythonLibs 3 REQUIRED)
+#
+# find_package(Python COMPONENTS Interpreter Development)
+#
+# message("Python_FOUND:${Python_FOUND}")
+# message("Python_VERSION:${Python_VERSION}")
+# message("Python_Development_FOUND:${Python_Development_FOUND}")
+# message("Python_LIBRARIES:${Python_LIBRARIES}")
