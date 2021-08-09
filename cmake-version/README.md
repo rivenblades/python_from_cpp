@@ -3,6 +3,8 @@
 ```bash
 python setup.py
 ```
+python3-dev libraries must be in /usr/include/python3.6, and lib in /usr/lib/x86_64-linux-gnu/libpython3.6m.so.
+otherwise, change CMakeLists.txt at lines 17,20 accordingly.
 
 ## Alternatively do it yourself
 
