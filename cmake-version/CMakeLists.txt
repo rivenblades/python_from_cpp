@@ -19,7 +19,7 @@ set(INCLUDES pybind11/include /usr/include/python3.6)
 set(LIBS /usr/lib/x86_64-linux-gnu/libpython3.6m.so)
 
 #set where to write the executable, equivalent in Makefile is -o
-# set(EXECUTABLE_OUTPUT_PATH ../)
+set(EXECUTABLE_OUTPUT_PATH ../)
 
 include_directories(${INCLUDES})
 add_executable(main ${SOURCES})
