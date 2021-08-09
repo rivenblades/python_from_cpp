@@ -1,8 +1,3 @@
-## cd to cmake-version
-```bash
-cd cmake-version
-```
-
 ## Clone pybind11
 ```bash
 git clone https://github.com/pybind/pybind11.git
